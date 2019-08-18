@@ -21,3 +21,5 @@ elif env.lower() == 'prod':
 
 db: SQLAlchemy = SQLAlchemy(app)
 ma: Marshmallow = Marshmallow(app)
+
+from todoapp.controller import *
